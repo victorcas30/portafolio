@@ -1,5 +1,5 @@
 import React from 'react';
-import './Terminal.css'; // Importar el archivo CSS
+import './terminal.css'; // Importar el archivo CSS
 import classNames from "classnames";
 import { Box } from "@mui/material";
 
