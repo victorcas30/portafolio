@@ -1,0 +1,44 @@
+.iconos_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 0.1s linear forwards;
+  }
+  
+  .icono_img {
+    font-size: 40px;
+    color: #c9c9c9; /* Color gris */
+    transition: all 0.5s ease;
+  }
+  
+  .icono_img:hover {
+    color: #00a47f; /* Color amarillo */
+    cursor: pointer;
+  }
+  
+  .icono_name {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    width: 60px;
+    color: #c9c9c9;
+  }
+  
+  @media (max-width: 878px) {
+    .iconos_container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  

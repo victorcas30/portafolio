@@ -1,0 +1,51 @@
+/* Variables.modules.css */
+:root {
+  --transition: all 250ms ease;
+}
+
+/* Estilos en CSS */
+nav {
+  transition: var(--transition);
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+li {
+  transition: var(--transition);
+}
+
+li:hover {
+  transform: translateY(-3px);
+  transition: var(--transition);
+}
+
+.link:hover {
+  color: unset;
+}
+
+/* Agrega tus estilos CSS aquí */
+.navbar-list {
+  display: flex;
+  flex-direction: row; /* Cambia la dirección a horizontal */
+  /* ... otras propiedades */
+}
+
+/* Agrega el resto de tus estilos como en tu archivo .scss */
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+.dark {
+  /* ... (código anterior) ... */
+
+  .link {
+      color: var(--white); /* Cambiar el color del enlace en el modo oscuro */
+      transition: color 400ms;
+  }
+}
+
+/* ... */

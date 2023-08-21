@@ -1,0 +1,63 @@
+/* terminal.css */
+
+:root {
+  --purple: #8D53FF;
+  --pink: #CA6BE6;
+  --white: #f8f8f8;
+  --dark: #1f1f1f;
+  --red: #FF6057;
+  --yellow: #FFBD2E;
+  --green: #27C93F;
+  --lightgray: #c9c9c9;
+  --transition: all 250ms ease;
+}
+
+.shadowed {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+i {
+  padding-left: 0.5rem;
+}
+
+i.red {
+  color: var(--red);
+}
+
+i.amber {
+  color: var(--yellow);
+}
+
+i.green {
+  color: var(--green);
+}
+
+.terminal p,
+.terminal li {
+  margin: 1rem 0;
+  color: var(--white);
+}
+
+.terminal a,
+.terminal a:visited {
+  animation: changeColors 3s infinite;
+  font-weight: bold;
+}
+.equal-width-terminal {
+  width: 50%; /* Establece el ancho deseado para todas las terminales */
+}
+
+@keyframes changeColors {
+  0% {
+    color: #00a47f;
+  }
+  33.3% {
+    color: #1d91e3;
+  }
+  66.6% {
+    color: #d419fe;
+  }
+  100% {
+    color: #00a47f;
+  }
+}
