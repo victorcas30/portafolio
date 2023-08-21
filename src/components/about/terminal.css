@@ -44,8 +44,16 @@ i.green {
   font-weight: bold;
 }
 .equal-width-terminal {
-  width: 50%; /* Establece el ancho deseado para todas las terminales */
+  width: 100%; /* Establece el ancho deseado para todas las terminales */
 }
+
+.custom-container {
+  max-width: 700px; /* Establece un ancho máximo */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  margin: 0 auto; /* Centra horizontalmente el contenedor */
+  padding: 20px; /* Agrega un poco de espacio interno */
+}
+
 
 @keyframes changeColors {
   0% {
