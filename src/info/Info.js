@@ -128,9 +128,9 @@ export const info = {
             image: mock4
         },
         {
-            title: "Proyecto 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Portafolio Personal",
+            live: "https://victorcas30.github.io/portafolio/",
+            source: "https://github.com/victorcas30/portafolio",
             image: mock5
         }
     ]
