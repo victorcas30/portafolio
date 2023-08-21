@@ -21,7 +21,7 @@ function Terminal(props) {
           py={{ xs: '1rem', md: '2rem' }}
           px={{ xs: '2rem', md: '3rem' }}
           borderRadius={'0 0 0.5rem 0.5rem'}
-          style={{ backgroundColor: '#27242f', fontSize: '1.5rem', fontFamily: 'Courier New, Courier, monospace' }}
+          style={{ backgroundColor: '#27242f', fontSize: '1.2rem', fontFamily: 'Courier New, Courier, monospace' }}
         >
           {text}
         </Box>
