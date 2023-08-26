@@ -1,0 +1,10 @@
+/* IconLink.css */
+:root {
+    --white: #ffffff;
+  }
+
+/* Definir estilos para la etiqueta <i> en el tema oscuro */
+.dark a i,
+.dark a {
+  color: var(--white);
+}
